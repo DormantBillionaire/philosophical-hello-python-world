@@ -3,7 +3,9 @@ def main():
 
       initial_response = print("Well, hello" , initial_greeting,"I didn't expect to see you here! Welcome to the Gen-Phil-ator!")
       initial_question = input("Anywho, tell me how your day has been on a scale of 1 to 10? I'll match you to the quote to keep you high, or get you out the hell hole you're in!: ")
-      rating_response = int(initial_question)
+      rating_response = int(initial_question) 
+      # I wonder if the above code could work without a type casting a string to an integer? 
+      # Maybe I can find a project to do tomorrow that can test this out 
 
       if rating_response < 3: 
             print("That which does not kill us makes us stronger")
